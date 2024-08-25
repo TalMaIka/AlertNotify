@@ -40,5 +40,3 @@
 
 2. The tool will start monitoring for new incidents. When an incident is detected, a pop-up notification will appear with the details.
 
-Update these variables in the `airalert.py` script as needed.
-
