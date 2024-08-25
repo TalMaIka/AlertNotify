@@ -107,7 +107,7 @@ def monitor_incidents():
             incident_time = time.strptime(latest_incident['alertDate'], "%Y-%m-%dT%H:%M:%S")
             current_time = time.gmtime()
             time_diff = time.mktime(current_time) - time.mktime(incident_time)
-            if latest_incident['rid'] not in seen_ids and time_diff <= 999999:  # 5 minutes
+            if latest_incident['rid'] not in seen_ids and time_diff <= 300:  # 5 minutes
                 seen_ids.add(latest_incident['rid'])
                 show_popup(latest_incident)
         time.sleep(10)  # Poll every 10 seconds
