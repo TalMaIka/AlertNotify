@@ -1,6 +1,8 @@
 # AirAlert
 
-**AirAlert** is a Windows alerting tool designed to provide real-time notifications about missile and drone incidents in Israeli airspace. The tool fetches data from a public API and displays notifications with sound alerts.
+<p align="center"><img src="https://i.imgur.com/bCyYrTt.png" height="250px" alt="AlertNotify Pic"/></p>
+
+**AirAlert** is a Windows alerting tool designed to provide real-time notifications about missile and drone incidents in Israeli-Oref. The tool fetches data from a public API and displays notifications with sound alerts.
 
 ## Features
 
