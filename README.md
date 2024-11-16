@@ -7,9 +7,7 @@
 ## Features
 
 - Real-time notifications for missile and drone incidents.
-- Pop-up alerts with modern design.
-- Sound notifications for immediate attention.
-- Customizable alert image and sound.
+- Sound notifications for attention.
 
 ## Requirements
 
